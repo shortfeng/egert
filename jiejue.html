@@ -1,0 +1,247 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--标题-->
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg row ">
+    <a href="#" class="navbar-brand  hand-dis">白鹭时代</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main">
+        <span class="navbar-toggler-icon "></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main"  >
+        <ul class=" navbar-nav">
+            <li class="kong"></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">首页</a></li>
+            <li class="nav-item"><a class="nav-link" href="chanpin.html">产品</a></li>
+            <li class="nav-item"><a class="nav-link" href="jiejue.html">解决方案</a></li>
+            <li class="nav-item "><a class="nav-link" href="anlie.html">案列</a></li>
+            <li class="nav-item "><a class="nav-link" href="">开发者中心(未开通)</a></li>
+            <li class="nav-item "><a class="nav-link" href="quyu.html">区块链实验室</a></li>
+            <li class="nav-item "><a class="nav-link" href="playable.html">众包平台</a></li>
+            <li class="nav-item "><a class="nav-link" href="">关于我们(未开通)</a></li>
+
+        </ul>
+
+    </div>
+
+    <!--隐藏栏-->
+    <div class="my-tlite" onmouseleave="over()" style="border-top:1px solid #0AA1ED">
+        <ul class="list-unstyled d-flex m-0">
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/1.jpg" alt="">
+                    <b>Egret Engine</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/2.png" style="width: 17%">
+                    <b>Egret3D</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/3.jpg" alt="">
+                    <b>Egret Runtime</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/4.jpg" alt="">
+                    <b>Egret Wing</b>
+                </a>
+            </li>
+        </ul>
+        <ul class="list-unstyled d-flex m-0">
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/5.jpg" alt="">
+                    <b>DragonBones</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/6.jpg" >
+                    <b>Egret-IOS-Support</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/7.jpg" alt="">
+                    <b>Egret-Android-Support</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/8.jpg" alt="">
+                    <b>Egret Feather</b>
+                </a>
+            </li>
+        </ul>
+        <ul class="list-unstyled d-flex m-0">
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/9.jpg" alt="">
+                    <b>Texture Merger</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/10.jpg">
+                    <b>Res Depor</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/11.jpg" alt="">
+                    <b>Egret inspector</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/13.jpg" alt="">
+                    <b>Lakeshore</b>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <img src="img/logo.png" alt="" class="logo" onmouseover="showlist()">
+</nav>
+
+<!--主体-->
+<div class="jiejue-bg">
+    <div class="clearfix container">
+        <div class="float-left " >
+            <h2>Matchvs 游戏云</h2>
+            <div class="jiejue-p">
+                <p>支持快速接入联网，多节点、低延迟、云端一键部署、可定制扩展等特性。</p>
+                <p>适用于多应用场景，包括立顶之初切入与后续单机改造</p>
+                <p>只需要简单调用Matchvs提供的SDK，就可以介入Matchvs服务，实现多人实时在线联网。</p>
+            </div>
+            <div class="btn btn-primary jiejue-btn">开始接入</div>
+            <div class="btn btn-primary jiejue-btn">开发文档</div>
+        </div>
+        <div class="float-left">
+            <img src="img/jiejue/1.png" class="jiejue-img1">
+        </div>
+    </div>
+</div>
+
+<div class="jiejue-bg2 text-center">
+    <div class="container">
+        <h2>Matchvs for Egret</h2>
+        <p>Matchvs 游戏云为 Egret 提供联网与服务端能力，支持将游戏的后端服务一键部署至云端，并由Matchvsi提供数据监控、日志服务与控制机制</p>
+        <div class="row">
+            <div class="col-md-4 ">
+                <div style="background: white">
+                    <img src="img/jiejue/2.png" class="mt-5">
+                    <h4 class="mt-5">实时云</h4>
+                    <p class="mt-4 pb-5 text-justify" style="color: black">遍布国内外的多线、多节点网络现已扬帆出海，确保每个节点的用户都拥有快速稳定的连接质量</p>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div style="background: white">
+                    <img src="img/jiejue/3.png" class="mt-5">
+                    <h4 class="mt-5">帧同步</h4>
+                    <p class="mt-4 pb-5 text-justify" style="color: black">遍布国内外的多线、多节点网络现已扬帆出海，确保每个节点的用户都拥有快速稳定的连接质量</p>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div style="background: white">
+                    <img src="img/jiejue/4.png" class="mt-5">
+                    <h4 class="mt-5">云端部署</h4>
+                    <p class="mt-4 pb-5 text-justify" style="color: black">遍布国内外的多线、多节点网络现已扬帆出海，确保每个节点的用户都拥有快速稳定的连接质量</p>
+                </div>
+            </div>
+        </div>
+        <div class="btn btn-primary jiejue-btn2">打开 Egret Launcher 创建游戏</div>
+    </div>
+</div>
+
+<div class="jiejue-bg3">
+    <div class="container text-center">
+        <h2 class="jiejue-img2">接入流程</h2>
+        <img src="img/jiejue/5.png" class="w-100 jiejue-img2">
+        <img src="img/jiejue/6.jpg" class="w-100 jiejue-img3">
+    </div>
+</div>
+
+<div class="jiejue-bg4">
+    <div class="container text-center">
+        <h2>案例与DENO</h2>
+        <p style="color: black">更先进的交互技术，带来更优质的网络体验</p>
+        <div class="btn btn-primary">技术支持</div>
+    </div>
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div>
+                    <img src="img/jiejue/7.jpg" class="w-100" >
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div>
+                    <img src="img/jiejue/8.jpg" class="w-100" >
+                </div>
+            </div>
+            <div class="col-md-4 jiejue-a">
+                <a href="#" class="list-group-item">微信小游戏线上案列</a>
+                <a href="#" class="list-group-item ">双人同屏PK</a>
+                <a href="#" class="list-group-item">帧同步实时对战</a>
+                <a href="#" class="list-group-item">点击目标位置击杀怪物</a>
+                <a href="#" class="list-group-item">支持随机匹配，创建房间模式</a>
+                <div class="text-center mt-5">
+                    <img src="img/jiejue/9.png" alt="">
+                    <p class="mt-3 mb-5">体验游戏《游侠姐妹》</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-4 jiejue-a">
+                <a href="#" class="list-group-item">微信小游戏线上案列</a>
+                <a href="#" class="list-group-item ">双人同屏PK</a>
+                <a href="#" class="list-group-item">帧同步实时对战</a>
+                <a href="#" class="list-group-item">点击目标位置击杀怪物</a>
+                <a href="#" class="list-group-item">支持随机匹配，创建房间模式</a>
+                <div class="text-center mt-5">
+                    <img src="img/jiejue/10.jpg" class="w-50">
+                    <p class="mt-3 mb-5">体验DEMO</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div>
+                    <img src="img/jiejue/11.jpg" class="w-100" >
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div>
+                    <img src="img/jiejue/12.jpg" class="w-100" >
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="450"></iframe>
+<script type="text/javascript">
+    function showlist(){
+        $(".my-tlite").attr("id","my-show");
+    }
+    function over(){
+        $(".my-tlite").removeAttr("id");
+    }
+
+</script>
+</body>
+</html>

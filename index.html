@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--星星插件-->
+    <script src="js/jquery-canvas-sparkles.js"></script>
+</head>
+<body >
+<!--标题-->
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg row ">
+    <a href="#" class="navbar-brand  hand-dis">白鹭时代</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main">
+        <span class="navbar-toggler-icon "></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main"  >
+        <ul class=" navbar-nav">
+            <li class="kong"></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">首页</a></li>
+            <li class="nav-item"><a class="nav-link" href="chanpin.html">产品</a></li>
+            <li class="nav-item"><a class="nav-link" href="jiejue.html">解决方案</a></li>
+            <li class="nav-item "><a class="nav-link" href="anlie.html">案列</a></li>
+            <li class="nav-item "><a class="nav-link" href="">开发者中心(未开通)</a></li>
+            <li class="nav-item "><a class="nav-link" href="quyu.html">区块链实验室</a></li>
+            <li class="nav-item "><a class="nav-link" href="playable.html">众包平台</a></li>
+            <li class="nav-item "><a class="nav-link" href="">关于我们(未开通)</a></li>
+
+        </ul>
+
+    </div>
+
+    <!--隐藏栏-->
+    <div class="my-tlite" onmouseleave="over()" style="border-top:1px solid #0AA1ED;background-color: rgba(160,160,160,0.2)">
+        <ul class="list-unstyled d-flex m-0" >
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/1.jpg" alt="">
+                    <b>Egret Engine</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/2.png" style="width: 17%">
+                    <b>Egret3D</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/3.jpg" alt="">
+                    <b>Egret Runtime</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/4.jpg" alt="">
+                    <b>Egret Wing</b>
+                </a>
+            </li>
+        </ul>
+        <ul class="list-unstyled d-flex m-0">
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/5.jpg" alt="">
+                    <b>DragonBones</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/6.jpg" >
+                    <b>Egret-IOS-Support</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/7.jpg" alt="">
+                    <b>Egret-Android-Support</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/8.jpg" alt="">
+                    <b>Egret Feather</b>
+                </a>
+            </li>
+        </ul>
+        <ul class="list-unstyled d-flex m-0">
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/9.jpg" alt="">
+                    <b>Texture Merger</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/10.jpg">
+                    <b>Res Depor</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/11.jpg" alt="">
+                    <b>Egret inspector</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/13.jpg" alt="">
+                    <b>Lakeshore</b>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <img src="img/logo.png" alt="" class="logo" onmouseover="showlist()">
+</nav>
+
+<!--中间-->
+<div class="row">
+    <div class="middle col-sm-12 ">
+        <img src="img/bg2.png" alt="" class="img-fluid shank" >
+    </div>
+</div>
+
+<!--轮播图-->
+<div class="my-lun1">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- 轮播图片 -->
+        <div class="carousel-inner" style="max-height: 345px;">
+            <div class="carousel-item active">
+                <div class="lun-margin">
+                    <div class="row ">
+                        <div class="col-lg-4  col-md-12" >
+                            <a href="">
+                                <img src="img/lun/1.jpg" class="img-thumbnail">
+                            <h3 class="text-center">DragonBones 5.5发布</h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 ">
+                            <a href="">
+                                <img src="img/lun/2.png" class="img-thumbnail">
+                                <h3 class="text-center">Egret Wing 4.0 发布</h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 ">
+                            <a href="">
+                                <img src="img/lun/3.png" class="img-thumbnail">
+                                <h3 class="text-center">白鹭引擎5.3.0发布</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="lun-margin">
+                    <div class="row ">
+                        <div class="col-lg-4  col-md-12" >
+                            <a href="">
+                                <img src="img/lun/4.png" class="img-thumbnail">
+                                <h3 class="text-center">2018HTML5区块链游戏大会</h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 ">
+                            <a href="">
+                                <img src="img/lun/5.png" class="img-thumbnail">
+                                <h3 class="text-center">微信小游戏开发指南</h3>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 ">
+                            <a href="">
+                                <img src="img/lun/6.jpg" class="img-thumbnail">
+                                <h3 class="text-center">精品案列中心</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#demo" class="carousel-control-prev lun-gai" data-slide="prev">
+            <span ><img src="img/lun/left.png" alt=""></span>
+        </a>
+        <a href="#demo" class="carousel-control-next lun-gai" data-slide="next">
+            <span ><img src="img/lun/right.png" alt=""></span>
+        </a>
+    </div>
+</div>
+
+<div class="my-body">
+    <h2 class="p-3">完整的HTML5工作流</h2>
+    <h4 class=>提升开发效率、运行效率、加载效率</h4>
+    <div class="lun-margin">
+        <div class="row lun2">
+            <div class="col-lg-3 col-md-6 col-sm-12 ">
+                <div class="lun2-div">
+                    <img src="img/lun2/1.png" alt="">
+                    <h3>Egret Engine</h3>
+                    <h5>白鹭引擎</h5>
+                    <h6>遵循HTML5标准的2D、3D引擎，解决了HTML5性能问题及碎片化问题，灵活地，满足开发者2D或3D游戏的需求，并有着较强的跨平台功能</h6>
+
+                    <a href=""><div >查看详情</div></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+
+                <div class="lun2-div">
+                    <img src="img/lun2/2.png" alt="">
+                    <h3>Egret Wing</h3>
+                    <h5>可视化编辑工具</h5>
+                    <h6>支持主流开发语言与技术的编辑器，通过可视化编辑，来提高游戏开发效率，同时支持Node.js开发扩展插件，更好的定制化自由的内容。</h6>
+                    <a href=""><div>查看详情</div></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="lun2-div">
+                    <img src="img/lun2/3.png" alt="">
+                    <h3>DragonBones</h3>
+                    <h5>动画制作工具</h5>
+                    <h6>这是一款面向设计师的动画创作平台，只要使用更少的美术成本制作更生动的动画效果。并且多语言支持，仅需一次制作即可全平台发布。</h6>
+                    <a href=""><div>查看详情</div></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="lun2-div">
+                    <img src="img/lun2/4.png" alt="">
+                    <h3>EgretRuntime</h3>
+                    <h5>HTML5游戏加速器</h5>
+                    <h6>支持3D的HTML5游戏加速器，解决低端机对HTML5标准支持不佳，体验差的弊端，可以适配不同的系统让HTML5游戏效果对标原生游戏。</h6>
+                    <a href=""><div>查看详情</div></a>
+                </div>
+            </div>
+            <div style="text-align:center" class="w-100 m-5">
+                <a href=""><div class="btn btn-info">查看详情</div></a>
+            </div>
+        </div>
+
+        <div class="my-lun2">
+            <h2>使用Egret创造卓越的HTML5游戏</h2>
+            <div id="demo2" class="carousel slide" data-ride="carousel">
+                <!-- 轮播图片 -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="lun-margin">
+                            <div class="row ">
+                                <div class="col-lg-4  col-md-12" >
+                                    <a href="">
+                                        <img src="img/lun3/1.jpg" class="img-thumbnail">
+                                    </a>
+                                    <h3 class="text-center">三生三世十里桃花</h3>
+                                </div>
+                                <div class="col-lg-4 ">
+                                    <a href="">
+                                        <img src="img/lun3/2.jpg" class="img-thumbnail">
+                                    </a>
+                                    <h3 class="text-center">御天传奇</h3>
+                                </div>
+                                <div class="col-lg-4 ">
+                                    <a href="">
+                                        <img src="img/lun3/3.jpg" class="img-thumbnail">
+                                    </a>
+                                    <h3 class="text-center">猫来了</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="lun-margin">
+                            <div class="row ">
+                                <div class="col-lg-4  col-md-12" >
+                                    <a href="">
+                                        <img src="img/lun3/4.jpg" class="img-thumbnail">
+                                    </a>
+                                    <h3 class="text-center">梦道</h3>
+                                </div>
+                                <div class="col-lg-4 ">
+                                    <a href="">
+                                        <img src="img/lun3/5.jpg" class="img-thumbnail">
+                                    </a>
+                                    <h3 class="text-center">决战沙城</h3>
+                                </div>
+                                <div class="col-lg-4 ">
+                                    <a href="">
+                                        <img src="img/lun3/6.jpg" class="img-thumbnail">
+                                    </a>
+                                    <h3 class="text-center">蛮荒记</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#demo2" class="carousel-control-prev lun-gai" data-slide="prev">
+                    <span ><img src="img/lun/left.png" alt=""></span>
+                </a>
+                <a href="#demo2" class="carousel-control-next lun-gai" data-slide="next">
+                    <span ><img src="img/lun/right.png" alt=""></span>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div style="text-align:center" class="w-100 m-5">
+                <a href=""><div class="btn btn-info">查看更多大作</div></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="my-body2">
+    <h2 class="text-center font-weight-bold">白鹭动态</h2>
+    <div class="row">
+        <div class="col-md-12 col-lg-4">
+            <div class="my-body2-div">
+                <p>关于我们</p>
+                <div class="p-3"></div>
+                <p class="text-justify">北京白鹭是全球范围内领i西安的HTML5移动技术和服务提供商,致力于为移动互联网行业提供技术解决方案和服务。我司与2014年2月成立于北京，曾先后获得顺为资本、深创投和经纬创投等机构的多轮投资。为更好地推动HTML5游戏产业的发展，白鹭科技以技术为核心，从开发工具、游戏自研、游戏发行、广告、开发者人才培训多个维度、打造移动游戏服务生态。截止2018年5月，白鹭引擎创建的内容占据全行业50%的市场份额，超过10亿台设备植入Runtimes</p>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+            <div class="my-body2-div">
+                <p>媒体报道</p>
+                <div class="p-3"></div>
+                <a href="#" class="list-group-item">百度 | 白鹭引擎支持Facebook instant Games开放平台游戏提交</a>
+                <a href="#" class="list-group-item ">搜狐网 | 白鹭科技探索区块链</a>
+                <a href="#" class="list-group-item">腾讯网 | 白鹭引擎正式支持微信小程序</a>
+                <a href="#" class="list-group-item">搜狐 | 白鹭时代率旗下龙骨打造H5动漫国际标准</a>
+                <a href="#" class="list-group-item">新浪 | 白鹭时代发布全新铲平 Egret Native</a>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+            <div class="my-body2-div">
+                <p>合作伙伴</p>
+                <div class="p-3"></div>
+                <img src="img/lun3/logo.png" class="w-100">
+            </div>
+        </div>
+    </div>
+</div>
+<iframe src="footer.html" frameborder="0" width="100%" scrolling="no" height="450"></iframe>
+<script type="text/javascript">
+    $(".shank").sparkle({
+        //颜色：接收HEX字符串，或者“rainbow”关键字，或一组HEX字符串
+        color: "#FFFFFF",
+        //一次显示星星的数量
+        count: 60,
+        // 距离canvas边部多少将会重叠
+        overlap: 0,
+        // 设置速度
+        speed: 0.2,
+        // 最小尺寸
+        minSize: 1,
+        // 最大尺寸
+        maxSize: 8,
+        //星星运动的方向，可以是"up", "down" 或 "both"
+        direction: "both"
+    });
+    function showlist(){
+        $(".my-tlite").attr("id","my-show");
+    }
+    function over(){
+        $(".my-tlite").removeAttr("id");
+    }
+</script>
+</body>
+</html>

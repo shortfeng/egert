@@ -1,0 +1,370 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        function page1(){
+
+            $(".my-page1").attr("id","show");
+            $(".my-page2").attr("id","close");
+            console.log(1);
+        }
+        function page2(){
+
+
+            $(".my-page2").attr("id","show");
+            $(".my-page1").attr("id","close");
+            console.log(2);
+        }
+    </script>
+</head>
+<body>
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg row ">
+    <a href="#" class="navbar-brand  hand-dis">白鹭时代</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main">
+        <span class="navbar-toggler-icon "></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main"  >
+        <ul class=" navbar-nav">
+            <li class="kong"></li>
+            <li class="nav-item"><a class="nav-link" href="index.html">首页</a></li>
+            <li class="nav-item"><a class="nav-link" href="chanpin.html">产品</a></li>
+            <li class="nav-item"><a class="nav-link" href="jiejue.html">解决方案</a></li>
+            <li class="nav-item "><a class="nav-link" href="anlie.html">案列</a></li>
+            <li class="nav-item "><a class="nav-link" href="">开发者中心(未开通)</a></li>
+            <li class="nav-item "><a class="nav-link" href="quyu.html">区块链实验室</a></li>
+            <li class="nav-item "><a class="nav-link" href="playable.html">众包平台</a></li>
+            <li class="nav-item "><a class="nav-link" href="">关于我们(未开通)</a></li>
+
+        </ul>
+
+    </div>
+
+    <!--隐藏栏-->
+    <div class="my-tlite" onmouseleave="over()" style="border-top:1px solid #0AA1ED">
+        <ul class="list-unstyled d-flex m-0">
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/1.jpg" alt="">
+                    <b>Egret Engine</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/2.png" style="width: 17%">
+                    <b>Egret3D</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/3.jpg" alt="">
+                    <b>Egret Runtime</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/4.jpg" alt="">
+                    <b>Egret Wing</b>
+                </a>
+            </li>
+        </ul>
+        <ul class="list-unstyled d-flex m-0">
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/5.jpg" alt="">
+                    <b>DragonBones</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/6.jpg" >
+                    <b>Egret-IOS-Support</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/7.jpg" alt="">
+                    <b>Egret-Android-Support</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/8.jpg" alt="">
+                    <b>Egret Feather</b>
+                </a>
+            </li>
+        </ul>
+        <ul class="list-unstyled d-flex m-0">
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/9.jpg" alt="">
+                    <b>Texture Merger</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/10.jpg">
+                    <b>Res Depor</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/11.jpg" alt="">
+                    <b>Egret inspector</b>
+                </a>
+            </li>
+            <li class="w-25">
+                <a href="#">
+                    <img src="img/tilte/13.jpg" alt="">
+                    <b>Lakeshore</b>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <img src="img/logo.png" alt="" class="logo" onmouseover="showlist()">
+</nav>
+
+<div><img src="img/anlie/download.png" class="w-100"></div>
+<div class="text-center mt-5 mb-5" style="font-size: 1rem">
+    <img src="img/anlie/lineLeft.png" style="width: 15%">
+    游戏案列
+    <img src="img/anlie/lineRight.png" style="width: 15%">
+</div>
+<div class="container">
+    <div id="show" class="my-page1">
+        <div class="row mb-4">
+            <div class="col-4 anlie-div">
+                <div class="anlie-img">
+                    <img src="img/anlie/download.jpg" class="w-100 ">
+                    <div class="w-100 text-center anlie-img2" style="background: rgba(0,0,0,0.5);">
+                        <img src="img/anlie/download-1.png" class="w-100 anlie-img3">
+                    </div>
+                </div>
+                <h6>传奇来了</h6>
+                <p class="text-justify">微信小程序版还原经典传奇，采用无缝跨平模式，画面清晰，打击感十足，游戏中各个角色可进行独立的装备，翅膀等养成，绚丽画风显得非常霸气！</p>
+            </div>
+
+            <div class="col-4 anlie-div">
+                <div class="anlie-img">
+                    <img src="img/anlie/download-1.jpg" class="w-100 ">
+                    <div class="w-100 text-center anlie-img2" style="background: rgba(0,0,0,0.5);">
+                        <img src="img/anlie/download-1.png" class="w-100 anlie-img3">
+                    </div>
+                </div>
+                <h6>女皇陛下</h6>
+                <p class="text-justify">微信小程序版还原经典传奇，采用无缝跨平模式，画面清晰，打击感十足，游戏中各个角色可进行独立的装备，翅膀等养成，绚丽画风显得非常霸气！</p>
+            </div>
+
+            <div class="col-4 anlie-div">
+                <div class="anlie-img">
+                    <img src="img/anlie/download-2.jpg" class="w-100 ">
+                    <div class="w-100 text-center anlie-img2" style="background: rgba(0,0,0,0.5);">
+                        <img src="img/anlie/download-1.png" class="w-100 anlie-img3">
+                    </div>
+                </div>
+                <h6>海盗来了</h6>
+                <p class="text-justify">微信小程序版还原经典传奇，采用无缝跨平模式，画面清晰，打击感十足，游戏中各个角色可进行独立的装备，翅膀等养成，绚丽画风显得非常霸气！</p>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-4 anlie-div">
+                <div class="anlie-img">
+                    <img src="img/anlie/download-3.jpg" class="w-100 ">
+                    <div class="w-100 text-center anlie-img2" style="background: rgba(0,0,0,0.5);">
+                        <img src="img/anlie/download-1.png" class="w-100 anlie-img3">
+                    </div>
+                </div>
+                <h6>时光幻境</h6>
+                <p class="text-justify">微信小程序版还原经典传奇，采用无缝跨平模式，画面清晰，打击感十足，游戏中各个角色可进行独立的装备，翅膀等养成，绚丽画风显得非常霸气！</p>
+            </div>
+
+            <div class="col-4 anlie-div">
+                <div class="anlie-img">
+                    <img src="img/anlie/download-4.jpg" class="w-100 ">
+                    <div class="w-100 text-center anlie-img2" style="background: rgba(0,0,0,0.5);">
+                        <img src="img/anlie/download-1.png" class="w-100 anlie-img3">
+                    </div>
+                </div>
+                <h6>梦道</h6>
+                <p class="text-justify">微信小程序版还原经典传奇，采用无缝跨平模式，画面清晰，打击感十足，游戏中各个角色可进行独立的装备，翅膀等养成，绚丽画风显得非常霸气！</p>
+            </div>
+
+            <div class="col-4 anlie-div">
+                <div class="anlie-img">
+                    <img src="img/anlie/download-5.jpg" class="w-100 ">
+                    <div class="w-100 text-center anlie-img2" style="background: rgba(0,0,0,0.5);">
+                        <img src="img/anlie/download-1.png" class="w-100 anlie-img3">
+                    </div>
+                </div>
+                <h6>幸福厨房</h6>
+                <p class="text-justify">微信小程序版还原经典传奇，采用无缝跨平模式，画面清晰，打击感十足，游戏中各个角色可进行独立的装备，翅膀等养成，绚丽画风显得非常霸气！</p>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-4 anlie-div">
+                <div class="anlie-img">
+                    <img src="img/anlie/download-6.jpg" class="w-100 ">
+                    <div class="w-100 text-center anlie-img2" style="background: rgba(0,0,0,0.5);">
+                        <img src="img/anlie/download-1.png" class="w-100 anlie-img3">
+                    </div>
+                </div>
+                <h6>物理弹珠</h6>
+                <p class="text-justify">微信小程序版还原经典传奇，采用无缝跨平模式，画面清晰，打击感十足，游戏中各个角色可进行独立的装备，翅膀等养成，绚丽画风显得非常霸气！</p>
+            </div>
+
+            <div class="col-4 anlie-div">
+                <div class="anlie-img">
+                    <img src="img/anlie/download-7.jpg" class="w-100 ">
+                    <div class="w-100 text-center anlie-img2" style="background: rgba(0,0,0,0.5);">
+                        <img src="img/anlie/download-1.png" class="w-100 anlie-img3">
+                    </div>
+                </div>
+                <h6>征服喵星</h6>
+                <p class="text-justify">微信小程序版还原经典传奇，采用无缝跨平模式，画面清晰，打击感十足，游戏中各个角色可进行独立的装备，翅膀等养成，绚丽画风显得非常霸气！</p>
+            </div>
+
+            <div class="col-4 anlie-div">
+                <div class="anlie-img">
+                    <img src="img/anlie/download-8.jpg" class="w-100 ">
+                    <div class="w-100 text-center anlie-img2" style="background: rgba(0,0,0,0.5);">
+                        <img src="img/anlie/download-1.png" class="w-100 anlie-img3">
+                    </div>
+                </div>
+                <h6>猛犬变变变</h6>
+                <p class="text-justify">微信小程序版还原经典传奇，采用无缝跨平模式，画面清晰，打击感十足，游戏中各个角色可进行独立的装备，翅膀等养成，绚丽画风显得非常霸气！</p>
+            </div>
+        </div>
+    </div>
+    <div id="close" class="my-page2">
+        <div class="row mb-4">
+            <div class="col-4 anlie-div">
+                <div class="anlie-img">
+                    <img src="img/anlie/download-3.jpg" class="w-100 ">
+                    <div class="w-100 text-center anlie-img2" style="background: rgba(0,0,0,0.5);">
+                        <img src="img/anlie/download-1.png" class="w-100 anlie-img3">
+                    </div>
+                </div>
+                <h6>时光幻境</h6>
+                <p class="text-justify">微信小程序版还原经典传奇，采用无缝跨平模式，画面清晰，打击感十足，游戏中各个角色可进行独立的装备，翅膀等养成，绚丽画风显得非常霸气！</p>
+            </div>
+
+            <div class="col-4 anlie-div">
+                <div class="anlie-img">
+                    <img src="img/anlie/download-4.jpg" class="w-100 ">
+                    <div class="w-100 text-center anlie-img2" style="background: rgba(0,0,0,0.5);">
+                        <img src="img/anlie/download-1.png" class="w-100 anlie-img3">
+                    </div>
+                </div>
+                <h6>梦道</h6>
+                <p class="text-justify">微信小程序版还原经典传奇，采用无缝跨平模式，画面清晰，打击感十足，游戏中各个角色可进行独立的装备，翅膀等养成，绚丽画风显得非常霸气！</p>
+            </div>
+
+            <div class="col-4 anlie-div">
+                <div class="anlie-img">
+                    <img src="img/anlie/download-5.jpg" class="w-100 ">
+                    <div class="w-100 text-center anlie-img2" style="background: rgba(0,0,0,0.5);">
+                        <img src="img/anlie/download-1.png" class="w-100 anlie-img3">
+                    </div>
+                </div>
+                <h6>幸福厨房</h6>
+                <p class="text-justify">微信小程序版还原经典传奇，采用无缝跨平模式，画面清晰，打击感十足，游戏中各个角色可进行独立的装备，翅膀等养成，绚丽画风显得非常霸气！</p>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-4 anlie-div">
+                <div class="anlie-img">
+                    <img src="img/anlie/download-6.jpg" class="w-100 ">
+                    <div class="w-100 text-center anlie-img2" style="background: rgba(0,0,0,0.5);">
+                        <img src="img/anlie/download-1.png" class="w-100 anlie-img3">
+                    </div>
+                </div>
+                <h6>物理弹珠</h6>
+                <p class="text-justify">微信小程序版还原经典传奇，采用无缝跨平模式，画面清晰，打击感十足，游戏中各个角色可进行独立的装备，翅膀等养成，绚丽画风显得非常霸气！</p>
+            </div>
+
+            <div class="col-4 anlie-div">
+                <div class="anlie-img">
+                    <img src="img/anlie/download-7.jpg" class="w-100 ">
+                    <div class="w-100 text-center anlie-img2" style="background: rgba(0,0,0,0.5);">
+                        <img src="img/anlie/download-1.png" class="w-100 anlie-img3">
+                    </div>
+                </div>
+                <h6>征服喵星</h6>
+                <p class="text-justify">微信小程序版还原经典传奇，采用无缝跨平模式，画面清晰，打击感十足，游戏中各个角色可进行独立的装备，翅膀等养成，绚丽画风显得非常霸气！</p>
+            </div>
+
+            <div class="col-4 anlie-div">
+                <div class="anlie-img">
+                    <img src="img/anlie/download-8.jpg" class="w-100 ">
+                    <div class="w-100 text-center anlie-img2" style="background: rgba(0,0,0,0.5);">
+                        <img src="img/anlie/download-1.png" class="w-100 anlie-img3">
+                    </div>
+                </div>
+                <h6>猛犬变变变</h6>
+                <p class="text-justify">微信小程序版还原经典传奇，采用无缝跨平模式，画面清晰，打击感十足，游戏中各个角色可进行独立的装备，翅膀等养成，绚丽画风显得非常霸气！</p>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-4 anlie-div">
+                <div class="anlie-img">
+                    <img src="img/anlie/download.jpg" class="w-100 ">
+                    <div class="w-100 text-center anlie-img2" style="background: rgba(0,0,0,0.5);">
+                        <img src="img/anlie/download-1.png" class="w-100 anlie-img3">
+                    </div>
+                </div>
+                <h6>传奇来了</h6>
+                <p class="text-justify">微信小程序版还原经典传奇，采用无缝跨平模式，画面清晰，打击感十足，游戏中各个角色可进行独立的装备，翅膀等养成，绚丽画风显得非常霸气！</p>
+            </div>
+
+            <div class="col-4 anlie-div">
+                <div class="anlie-img">
+                    <img src="img/anlie/download-1.jpg" class="w-100 ">
+                    <div class="w-100 text-center anlie-img2" style="background: rgba(0,0,0,0.5);">
+                        <img src="img/anlie/download-1.png" class="w-100 anlie-img3">
+                    </div>
+                </div>
+                <h6>女皇陛下</h6>
+                <p class="text-justify">微信小程序版还原经典传奇，采用无缝跨平模式，画面清晰，打击感十足，游戏中各个角色可进行独立的装备，翅膀等养成，绚丽画风显得非常霸气！</p>
+            </div>
+
+            <div class="col-4 anlie-div">
+                <div class="anlie-img">
+                    <img src="img/anlie/download-2.jpg" class="w-100 ">
+                    <div class="w-100 text-center anlie-img2" style="background: rgba(0,0,0,0.5);">
+                        <img src="img/anlie/download-1.png" class="w-100 anlie-img3">
+                    </div>
+                </div>
+                <h6>海盗来了</h6>
+                <p class="text-justify">微信小程序版还原经典传奇，采用无缝跨平模式，画面清晰，打击感十足，游戏中各个角色可进行独立的装备，翅膀等养成，绚丽画风显得非常霸气！</p>
+            </div>
+        </div>
+    </div>
+    <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link">&laquo;</a></li>
+        <li class="page-item"><a class="page-link" onclick="page1()">1</a></li>
+        <li class="page-item"><a class="page-link" onclick="page2()">2</a></li>
+        <li class="page-item"><a class="page-link">&raquo;</a></li>
+    </ul>
+    </nav>
+</div>
+
+<iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="450"></iframe>
+<script type="text/javascript">
+    function showlist(){
+        $(".my-tlite").attr("id","my-show");
+    }
+    function over(){
+        $(".my-tlite").removeAttr("id");
+    }
+
+</script>
+</body>
+</html>
